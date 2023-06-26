@@ -255,7 +255,7 @@
   margin: 0;
 }
 
-.staff__container {
+.staff__card {
   max-width: 760px;
   margin-top: 68px;
   display: flex;
