@@ -61,10 +61,10 @@
 
 .header__image {
   z-index: 1;
-  position:absolute;
-  max-width:636px;
-  top:135px;
-  right:20px;
+  position: absolute;
+  max-width: 636px;
+  top: 135px;
+  right: 20px;
 }
 
 .header__footer {
@@ -165,11 +165,11 @@
 }
 
 .events__image {
-   max-width: 100%;
+  max-width: 100%;
 }
 
 .person {
-   position: absolute;
+  position: absolute;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -177,30 +177,30 @@
 }
 
 .person_name_feynman {
-  top:-30px;
-  left:319px;
+  top: -30px;
+  left: 319px;
 }
 
 .person_name_burbidge {
-  top:96px;
-  right:125px;
+  top: 96px;
+  right: 125px;
 }
 
 .person_name_cannon {
-  flex-direction:column-reverse;
-  bottom:18px;
+  flex-direction: column-reverse;
+  bottom: 18px;
   right: 216px;
 }
 
 .person_name_mitchell {
-  flex-direction:column-reverse;
-  bottom:82px;
-  left:142px;
+  flex-direction: column-reverse;
+  bottom: 82px;
+  left: 142px;
 }
 
 .person_name_tarter {
-  top:79px;
-  left:159px;
+  top: 79px;
+  left: 159px;
 }
 
 .person__image {
@@ -216,11 +216,180 @@
 }
 
 .person__image_size_s {
-   width: 80px;
+  width: 80px;
 }
 
 .person__caption {
-   text-align: center;
+  text-align: center;
   font-size: 14px;
   margin: 0;
+}
+.staff {
+  padding: 100px 0 140px;
+}
+
+.staff__title {
+  text-align: center;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0 0 24px;
+}
+
+.staff__subtitle {
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
+
+.card {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 32px 40px 20px 32px;
+  box-sizing: border-box;
+}
+
+.card__content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.card__text {
+  margin: 20px 0 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card__footer {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #838383;
+}
+
+.membership {
+  padding: 100px 0 140px;
+  background-color: #f2f2f2;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  /* Add styles */
+}
+
+.step {
+  /* Add styles */
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.about {
+  padding: 100px 80px;
+  background-color: #1f1f1f;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.about__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  z-index: 1;
+}
+
+.about__content {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  max-width: 660px;
+}
+
+.about__circle {
+  background-color: #2f80ed;
+  width: 495px;
+  height: 495px;
+  border-radius: 50%;
+}
+
+.footer {
+  box-sizing: border-box;
+}
+
+.footer__columns {
+}
+
+.footer__column_content_hours {
+}
+
+.footer__column_content_social {
+}
+
+.footer__logo {
+}
+
+.footer__list {
+  /* The code below removes the default browser styles for lists */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+}
+
+.footer__column-heading {
+}
+
+.footer__column-link {
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+}
+
+.footer__copyright {
 }
