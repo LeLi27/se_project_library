@@ -42,6 +42,9 @@
   font-weight: bold;
 }
 
+.nav_link:hover{
+}
+
 .header__title {
   font-size: 66px;
   line-height: 76px;
@@ -80,6 +83,8 @@
   color: #2f80ed;
   text-decoration: none;
 }
+
+.header_link:hover{}
 
 .header__address {
   margin: 0;
@@ -155,6 +160,8 @@
   color: #2f80ed;
   text-decoration: none;
 }
+
+.events_more:hover{}
 
 .events__cover {
   flex-grow: 1;
