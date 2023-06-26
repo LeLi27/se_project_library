@@ -43,6 +43,7 @@
 }
 
 .nav_link:hover{
+  color: # 1f69c9;
 }
 
 .header__title {
@@ -84,7 +85,9 @@
   text-decoration: none;
 }
 
-.header_link:hover{}
+.header_link:hover{
+  color: # 1f69c9;
+}
 
 .header__address {
   margin: 0;
@@ -161,7 +164,9 @@
   text-decoration: none;
 }
 
-.events_more:hover{}
+.events_more:hover{
+  color: # 1f69c9;
+}
 
 .events__cover {
   flex-grow: 1;
