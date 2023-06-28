@@ -335,9 +335,8 @@
 }
 
 .step {
-  flex-basis: fit-content;
-  padding: 220px 40px;
-}
+  flex-basis:220px;
+ }
 
 .step__title {
   margin: 0;
