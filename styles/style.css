@@ -395,12 +395,12 @@
   position: absolute;
   top: -121px;
   left: -91px;
-  z-index: 0;
+  z-index: -1;
 }
 
 .footer {
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: #ffffff;
   padding: 60px 102px 60px 80px;
 }
@@ -408,10 +408,8 @@
 .footer__columns {
   font-size: 16px;
   line-height: 20px;
-  gap: 100px;
   display: flex;
-  justify-content: space-between;
-}
+  }
 
 .footer__column_content_hours {
   display: flex;
@@ -462,7 +460,7 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin-right: 102px;
+  margin-right: 10px;
 }
 
 .footer__copyright {
