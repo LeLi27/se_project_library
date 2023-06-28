@@ -385,6 +385,7 @@
 
 .about__paragraph {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .about__circle {
@@ -443,6 +444,8 @@
 
 .footer__column-heading {
   margin-bottom: 20px;
+  margin-top: 0;
+  font-size: 16px;
 }
 
 .footer__column-link {
@@ -464,5 +467,5 @@
 }
 
 .footer__copyright {
-  margin-top: 108px;
+  margin-top: 108px 0 0;
 }
