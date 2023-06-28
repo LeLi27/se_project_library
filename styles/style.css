@@ -431,8 +431,8 @@
 }
 
 .footer__logo {
-  max-height: 80px;
-  max-width: 57px;
+  height: 80px;
+  width: 57px;
 }
 
 .footer__list {
