@@ -242,7 +242,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("./images/staff_picks_background.jpg");
+  background-image: url("../images/staff_picks_background.jpg");
 }
 
 .staff__title {
