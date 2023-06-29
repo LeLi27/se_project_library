@@ -388,6 +388,9 @@
   margin-top: 0;
   margin-bottom: 32;
 }
+.about__paragraph:last-child{
+  text-indent: 0;
+}
 
 .about__circle {
   background-color: #2f80ed;
